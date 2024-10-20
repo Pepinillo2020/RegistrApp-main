@@ -11,7 +11,7 @@ export class VerReglamentoPage implements OnInit {
 
   constructor(private animationCtrl: AnimationController) { }
 
-  pdfSrc = "./../assets/RES-VRA-03-2024-NUEVO-REGLAMENTO-ACADÉMICO63-1.pdf"
+  pdfSrc = "./../assets/reglamento.pdf"
   zoom: number = 1;
 
   ngOnInit() {
